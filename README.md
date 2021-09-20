@@ -3,6 +3,7 @@
 
 Click here to view site:
 https://simran7s.github.io/backendCalculator/ 
+https://simran7s.github.io/backendCalculator/bmiCalcuator.html
 
 Note: the website does not have an active backend right now, so in order to view this work with backend logic included:
 1) download the project
