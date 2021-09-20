@@ -2,7 +2,10 @@
 
 
 Click here to view site:
+
+Calculating Sum frontend:
 https://simran7s.github.io/backendCalculator/ 
+Calculating BMI frontend:
 https://simran7s.github.io/backendCalculator/bmiCalcuator.html
 
 Note: the website does not have an active backend right now, so in order to view this work with backend logic included:
