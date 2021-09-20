@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Bungee&family=Crete+Round&family=Share+Tech+Mono&display=swap');
+* {
+  margin: 0;
+  padding: 0%;
+  font-size: 16px;
+  font-family: 'Share Tech Mono', monospace;
+  /* font-weight: 100; */
+  margin: auto;
+}
+
+html {
+  background-color: #2c3e50;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+.container {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: -3px -3px 3px #ffffff10, 3px 3px 3px #00000050;
+}
+
+h1 {
+  font-size: 6rem;
+  font-family: 'Bungee', cursive;
+  height: fit-content;
+  text-align: center;
+  color: #2980b9;
+  padding: 0;
+  text-shadow: -3px -3px 10px #304457, 3px 3px 10px #00000065;
+}
+#bmiTitle {
+  font-size: 3.5rem;
+}
+
+form {
+  text-align: center;
+  font-size: 2rem;
+}
+.box {
+  width: fit-content;
+  position: relative;
+  bottom: 4rem;
+}
+
+.bmi-box {
+  width: fit-content;
+  position: relative;
+  bottom: 1.5rem;
+}
+
+input {
+  margin: 0rem auto 1rem;
+  width: 15rem;
+  height: 2rem;
+  padding-left: 1rem;
+  color: #ecf0f1;
+  /* display: block; */
+  background-color: #34495e;
+  border: none;
+  outline: none;
+  border-radius: 16px;
+  background: #34495e;
+  box-shadow: inset 8px 8px 8px #00000065, inset -8px -8px 8px #384e65;
+}
+
+.bmi-input {
+  margin: 0rem auto 1rem;
+  width: 13rem;
+  height: 2rem;
+  padding-left: 1rem;
+  color: #ecf0f1;
+  /* display: block; */
+  background-color: #34495e;
+  border: none;
+  outline: none;
+  border-radius: 16px;
+  background: #34495e;
+  box-shadow: inset 8px 8px 8px #00000065, inset -8px -8px 8px #384e65;
+}
+
+input::placeholder {
+  color: #ecf0f1;
+}
+
+button {
+  background-color: #34495e;
+  color: #ecf0f1;
+  width: 80%;
+  height: 3rem;
+  border-radius: 1rem;
+  display: block;
+  margin-top: 1rem;
+  border: none;
+  outline: none;
+  border-radius: 16px;
+  background: #34495e;
+  box-shadow: 3px 3px 21px #00000065, -3px -3px 21px #304457;
+}
+
+button:hover {
+  background-color: #304457;
+}
